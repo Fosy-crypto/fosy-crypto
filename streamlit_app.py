@@ -6,9 +6,5 @@ st.write(
 )
 import streamlit as st
 
-import streamlit as st
-import time
-
-import streamlit as st
-
-st.link_button("Go to gallery", "https://streamlit.io/gallery")
+number = st.number_input("Insert a number")
+st.write("The current number is ", number)
