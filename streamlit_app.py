@@ -9,12 +9,6 @@ import streamlit as st
 import streamlit as st
 import time
 
-@st.fragment
-def release_the_flowers():
-    st.button("Release the flowers", help="Fragment rerun")
-    st.flowers()
+import streamlit as st
 
-with st.spinner("Inflating flowers..."):
-    time.sleep(5)
-release_the_flowers()
-st.button("Inflate more flowers", help="Full rerun")
+st.link_button("Go to gallery", "https://streamlit.io/gallery")
