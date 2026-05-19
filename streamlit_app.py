@@ -10,11 +10,11 @@ import streamlit as st
 import time
 
 @st.fragment
-def release_the_balloons():
-    st.button("Release the balloons", help="Fragment rerun")
-    st.balloons()
+def release_the_flowers():
+    st.button("Release the flowers", help="Fragment rerun")
+    st.flowers()
 
-with st.spinner("Inflating balloons..."):
+with st.spinner("Inflating flowers..."):
     time.sleep(5)
-release_the_balloons()
-st.button("Inflate more balloons", help="Full rerun")
+release_the_flowers()
+st.button("Inflate more flowers", help="Full rerun")
